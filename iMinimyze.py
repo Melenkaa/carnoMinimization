@@ -49,7 +49,7 @@ def minimize_boolean_function(minterms, variables):
 
 
 # Загрузка данных из файла
-file_path = "/home/kevgen/Documents/I Андрей после правок.xlsx"
+file_path = "ITable.xlsx"
 xls = pd.ExcelFile(file_path)
 df = xls.parse(sheet_name='Sheet1')
 
